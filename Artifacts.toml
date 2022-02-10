@@ -1,378 +1,459 @@
 [[Mineos]]
-arch = "x86_64"
-git-tree-sha1 = "bac7fc8b4094cbace291c1607199621e9ef65dde"
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[Mineos.download]]
-    sha256 = "3dcf3aa0e92f1986aaa2fe1f9d9a74fea077b1f8fe74a71b1469506483c7b678"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.x86_64-linux-gnu-libgfortran4.tar.gz"
-[[Mineos]]
 arch = "aarch64"
-git-tree-sha1 = "e965dfba7c20331b6cf7b3d57e22c9105119b283"
-libc = "musl"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[Mineos.download]]
-    sha256 = "e1d9da80ba68864ce6b78593448b6ba17666f8d7d5d691274935b910333ee7a4"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.aarch64-linux-musl-libgfortran4.tar.gz"
-[[Mineos]]
-arch = "i686"
-git-tree-sha1 = "445ba818ab31ab5191a4ccf7e6af15d9f3e3e4f0"
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[Mineos.download]]
-    sha256 = "8fe2c92373305c19d930622ca7ab52bf4658c955842863559f0d49fd9a780b3f"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.i686-linux-gnu-libgfortran3.tar.gz"
-[[Mineos]]
-arch = "x86_64"
-git-tree-sha1 = "14e22c75ec8b9d7f326ee0da448367b7f1a07a87"
-libc = "musl"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[Mineos.download]]
-    sha256 = "0f899f308c60931c9f26464010b3809fd12e7599ae86f14d367771a9ad3f0832"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.x86_64-linux-musl-libgfortran3.tar.gz"
-[[Mineos]]
-arch = "aarch64"
-git-tree-sha1 = "4bcb748fef1262ec5f73125f3e5ad7e3891e5ecc"
-libc = "musl"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[Mineos.download]]
-    sha256 = "239a83fe39c10552aedda2586746a6e440c4cae063ea3783e8c72d6f9c70a893"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.aarch64-linux-musl-libgfortran3.tar.gz"
-[[Mineos]]
-arch = "i686"
-git-tree-sha1 = "a5f22bcf635d7a509954ea0ec142da90faf2eb4a"
-libgfortran_version = "5.0.0"
-os = "windows"
-
-    [[Mineos.download]]
-    sha256 = "dd6424a5ef885f170eaeef3406125f909144e269a68f4480799ef6683ac774ab"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.i686-w64-mingw32-libgfortran5.tar.gz"
-[[Mineos]]
-arch = "aarch64"
-git-tree-sha1 = "ca7d8ff44137f2142adc61734e3c6614378b8303"
-libc = "musl"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[Mineos.download]]
-    sha256 = "c3b1536bd049855f9e8565d36ff624e903788c25b18633d251c017574b66dee9"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.aarch64-linux-musl-libgfortran5.tar.gz"
-[[Mineos]]
-arch = "armv7l"
-git-tree-sha1 = "580de8329e14fce82801c60a62f5b45cc87f909b"
-libc = "musl"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[Mineos.download]]
-    sha256 = "22bb10f36dafb71e732fedf718fd0cf55bbb27857eb6a34a2854e4a85588491f"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.arm-linux-musleabihf-libgfortran5.tar.gz"
-[[Mineos]]
-arch = "armv7l"
-git-tree-sha1 = "687d9d6efd8539a1df1c50fa28f65d5827e5bc88"
-libc = "musl"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[Mineos.download]]
-    sha256 = "91900331ed1f39fab308a5fd7d2fa6a2070ca8e052b67c49e82c85f8ff3e6408"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.arm-linux-musleabihf-libgfortran3.tar.gz"
-[[Mineos]]
-arch = "i686"
-git-tree-sha1 = "60752469690f8307a1de81f98c953676a18b17d2"
-libc = "musl"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[Mineos.download]]
-    sha256 = "c9a6410de0dd44af8bd010049262377658ecd791be00d271d224a9aea7799357"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.i686-linux-musl-libgfortran5.tar.gz"
-[[Mineos]]
-arch = "x86_64"
-git-tree-sha1 = "20194dd1aecb09b6921aa644b61ee5e7f237be37"
-libgfortran_version = "4.0.0"
-os = "freebsd"
-
-    [[Mineos.download]]
-    sha256 = "ff8d24aea99c40be04570918590b1f3eb1ab38deb8cf7c2c6467cf01b0b0fd90"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.x86_64-unknown-freebsd11.1-libgfortran4.tar.gz"
-[[Mineos]]
-arch = "x86_64"
-git-tree-sha1 = "f533a7c1ba0268cb424c6ec42f62c8e424559280"
-libgfortran_version = "5.0.0"
-os = "windows"
-
-    [[Mineos.download]]
-    sha256 = "61a75530caa69a965d33fc2e678d563ed240e21ee74139adcc686000918f154b"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.x86_64-w64-mingw32-libgfortran5.tar.gz"
-[[Mineos]]
-arch = "armv7l"
-git-tree-sha1 = "bf0c938c8fb469e2a759efad895d1cd952d4e4eb"
-libc = "glibc"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[Mineos.download]]
-    sha256 = "2248167cdba7b8b18aecb863e004f16cee95d7d170122428944012cd9f635fd5"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.arm-linux-gnueabihf-libgfortran5.tar.gz"
-[[Mineos]]
-arch = "powerpc64le"
-git-tree-sha1 = "0848b4caf12420e3bbee4a55fd08bd1fdde497a3"
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[Mineos.download]]
-    sha256 = "b267551857fa972770b4f429b4e249fe8cc331706e492ea42436cd1ce9677419"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.powerpc64le-linux-gnu-libgfortran4.tar.gz"
-[[Mineos]]
-arch = "i686"
-git-tree-sha1 = "f7f2f21dfc060d0b4431d813064cb4c3ce20bbf0"
-libc = "glibc"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[Mineos.download]]
-    sha256 = "dc912603c5814b951ad79005d0df1ef49f460120590675200a1d6338a566e811"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.i686-linux-gnu-libgfortran5.tar.gz"
-[[Mineos]]
-arch = "armv7l"
-git-tree-sha1 = "69269985d9f67f07651f3bc27d4b94fa8f53ffee"
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[Mineos.download]]
-    sha256 = "feae9489a0c876cba63eed00cc35a7515f3f12f5550d40dc71d2a28fba410271"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.arm-linux-gnueabihf-libgfortran3.tar.gz"
-[[Mineos]]
-arch = "x86_64"
-git-tree-sha1 = "cdea482b30f54b6cfea42c5857fbd66f6beeebb2"
-libgfortran_version = "3.0.0"
-os = "macos"
-
-    [[Mineos.download]]
-    sha256 = "5c3446245a83cda64d480cf0af37cc37aea1d11590e0359e0c79f735e52d5371"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.x86_64-apple-darwin14-libgfortran3.tar.gz"
-[[Mineos]]
-arch = "armv7l"
-git-tree-sha1 = "f3b70c265a27c206f8a442737b12c2ca5b10d1d2"
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[Mineos.download]]
-    sha256 = "0432a99eb214f3503a9e26121e44cfaf4e3164e76e32d36707fa2034749fa8d8"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.arm-linux-gnueabihf-libgfortran4.tar.gz"
-[[Mineos]]
-arch = "x86_64"
-git-tree-sha1 = "e7a07f8d510492fca1ce4d092c874df7e17c6c12"
+git-tree-sha1 = "63a5ac54d9b55f1a0548f59c8c47844a912c47e1"
 libgfortran_version = "5.0.0"
 os = "macos"
 
     [[Mineos.download]]
-    sha256 = "118c1cc9db6b14baa4cd447a0cc81dbe7be594c5b235e411839bab8cae46a737"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.x86_64-apple-darwin14-libgfortran5.tar.gz"
-[[Mineos]]
-arch = "x86_64"
-git-tree-sha1 = "70b4cd2761c4d3337e310598d8486787f7aad34a"
-libgfortran_version = "5.0.0"
-os = "freebsd"
-
-    [[Mineos.download]]
-    sha256 = "3e068237921c7ce227a85d5e3716dbe83e10df24d409f84fe03f5e3bd5f7aefa"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.x86_64-unknown-freebsd11.1-libgfortran5.tar.gz"
-[[Mineos]]
-arch = "x86_64"
-git-tree-sha1 = "57c307f3a22999236c881f52d588d5042a7368be"
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[Mineos.download]]
-    sha256 = "ff2c58c305b941d3ed690edc2154e6255322dabc99af5cbfad24834c408b746a"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.x86_64-linux-gnu-libgfortran3.tar.gz"
+    sha256 = "ed69fd481ab6efe613db503026e2ce950a2962db0f2473703bb45a00c12794e7"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.aarch64-apple-darwin-libgfortran5.tar.gz"
 [[Mineos]]
 arch = "aarch64"
-git-tree-sha1 = "fd2dd9121a6403885780875d915bc56014e278f4"
+git-tree-sha1 = "0ec0a559e813193025f68d5c6dede22f8b512f4e"
 libc = "glibc"
 libgfortran_version = "3.0.0"
 os = "linux"
 
     [[Mineos.download]]
-    sha256 = "384490b3efdc8a236b8928f1c5e2a65b791ddca7651bf1e77db13ccab935260f"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.aarch64-linux-gnu-libgfortran3.tar.gz"
-[[Mineos]]
-arch = "x86_64"
-git-tree-sha1 = "c20aab7e22c6871175a3d89a3b42df1739c992d7"
-libgfortran_version = "4.0.0"
-os = "windows"
-
-    [[Mineos.download]]
-    sha256 = "1e749b7924a7e90104cc439c90f1076ba4a507ba96040e9356b7bc196881fa1a"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.x86_64-w64-mingw32-libgfortran4.tar.gz"
+    sha256 = "b34515cc94a9aa73c0b43c16e888751d716f55576481c764bbe49de711979c86"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.aarch64-linux-gnu-libgfortran3.tar.gz"
 [[Mineos]]
 arch = "aarch64"
-git-tree-sha1 = "4be4853b339686065cd4d45853d1495b9523fcc8"
-libc = "glibc"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[Mineos.download]]
-    sha256 = "1d6c2eec0b2b74c948a9a19b2d5ebcba0355dfe1340fc6ccad7abd40ae134519"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.aarch64-linux-gnu-libgfortran5.tar.gz"
-[[Mineos]]
-arch = "x86_64"
-git-tree-sha1 = "dbf84d7474a0f0e14ab43d3785f29a18a45744b4"
-libgfortran_version = "3.0.0"
-os = "windows"
-
-    [[Mineos.download]]
-    sha256 = "ee6c8539620a3b41d70cde3c198d86e38c2d204ab451401538dee7b7096705b3"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.x86_64-w64-mingw32-libgfortran3.tar.gz"
-[[Mineos]]
-arch = "powerpc64le"
-git-tree-sha1 = "4c749b0a85d18f09470e5cea93dcefe09fc597f5"
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[Mineos.download]]
-    sha256 = "04af0905181ee6d6cdf385fef23ee43012b135f12cfb22149997ca747a084d52"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.powerpc64le-linux-gnu-libgfortran3.tar.gz"
-[[Mineos]]
-arch = "aarch64"
-git-tree-sha1 = "83c99b5da1ba6ef9fccbe1d8be01695abc13a0fe"
+git-tree-sha1 = "e745565d81526a8f88ee5131fd9b5340c4bec067"
 libc = "glibc"
 libgfortran_version = "4.0.0"
 os = "linux"
 
     [[Mineos.download]]
-    sha256 = "b87af2e59671850388afe2e605c0c84caae73d31929cf919cc7f037b622ecdb9"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.aarch64-linux-gnu-libgfortran4.tar.gz"
+    sha256 = "a628eb35fd6887a2f85d14f8ad92a4c9b135eea9533eaa44a04816ff479e33da"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.aarch64-linux-gnu-libgfortran4.tar.gz"
+[[Mineos]]
+arch = "aarch64"
+git-tree-sha1 = "09fa8b1cce646595c0e135e67c8d5aae7dea9f81"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Mineos.download]]
+    sha256 = "f8f846dd1ec51137b5c7c4ab962cea2dac1d1b6a305c1075207f04197fa8218e"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.aarch64-linux-gnu-libgfortran5.tar.gz"
+[[Mineos]]
+arch = "aarch64"
+git-tree-sha1 = "ed3b2d84ed9c750957b35636e85063100c3a2f26"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[Mineos.download]]
+    sha256 = "5e2f2c7cbf16d2733a102860660600ca15d50ba9ec7a96836e92f4f812ec0e92"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.aarch64-linux-musl-libgfortran3.tar.gz"
+[[Mineos]]
+arch = "aarch64"
+git-tree-sha1 = "bd8686c61cdc93c510ecf54ee680d6788bbcd197"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[Mineos.download]]
+    sha256 = "c863aa0ad17e8f6b608fba29d44da50bb56343b75b66705aacec6b341b20bdca"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.aarch64-linux-musl-libgfortran4.tar.gz"
+[[Mineos]]
+arch = "aarch64"
+git-tree-sha1 = "9323fc4922ddb05fd5d285774252fde87f171945"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Mineos.download]]
+    sha256 = "79bf379c12ee26dc8e5e865fe36bb51819d79a6b53a11273158ec69678dc0904"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.aarch64-linux-musl-libgfortran5.tar.gz"
+[[Mineos]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "4f9eda61dc283af4baad09904ab0669c05a3397a"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[Mineos.download]]
+    sha256 = "4dab29951a56ff44ce57357616be8b5f0f801bf97ba2dab1c4e761d828e4b6ee"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.armv6l-linux-gnueabihf-libgfortran3.tar.gz"
+[[Mineos]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "b29b06833c7ffffb8b15391a6c689314f656929c"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[Mineos.download]]
+    sha256 = "3fa200fa6401eac1d6397e92ee35ddb1c06f0dbb31ff52ea509604652f798b3d"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.armv6l-linux-gnueabihf-libgfortran4.tar.gz"
+[[Mineos]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "0d55a039dd993e425c25a98f15ad046a602e18c7"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Mineos.download]]
+    sha256 = "0e67c1a0fa3a427fccb7d380855c9569b3f452ff074292d2834901e912e0d755"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.armv6l-linux-gnueabihf-libgfortran5.tar.gz"
+[[Mineos]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "6e4daa9c6eff0df4f926613f7f00626419b917e6"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[Mineos.download]]
+    sha256 = "d0e8427b8316e3618f6763e375fcdcf3125dc4ac2ed73b6efa46e7a5ce1527e0"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.armv6l-linux-musleabihf-libgfortran3.tar.gz"
+[[Mineos]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "c01ca5531274f928486ddc4890ecfc5cb2d74254"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[Mineos.download]]
+    sha256 = "f123eb045fae28a20dd3772f4552af8341cc06a5e1367b70ba975d3d10f1f43d"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.armv6l-linux-musleabihf-libgfortran4.tar.gz"
+[[Mineos]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "2470e64b2e86502ebc800ef9f6e92ddbcd8f49cf"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Mineos.download]]
+    sha256 = "3cd9f4eabfb2813b640d5af6e175f1e5cfe3752a083719d203b56510136ee5a0"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.armv6l-linux-musleabihf-libgfortran5.tar.gz"
 [[Mineos]]
 arch = "armv7l"
-git-tree-sha1 = "bf7bb6b6189edc38ba8d669fa9f13629e34e1b5f"
-libc = "musl"
+call_abi = "eabihf"
+git-tree-sha1 = "cbafd8f04f8a916bf76ad6dfaff311aaf7043c97"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[Mineos.download]]
+    sha256 = "c441cf873519a7ca1a57dfacd2ecd002947ff62829094a35816e7468c4b3a05d"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.armv7l-linux-gnueabihf-libgfortran3.tar.gz"
+[[Mineos]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "2174fab82240fe7310caa8b793771f02d590830f"
+libc = "glibc"
 libgfortran_version = "4.0.0"
 os = "linux"
 
     [[Mineos.download]]
-    sha256 = "8310b2cd62e97d31b49c59269bb01b52dd7ce3c56a01d3d72be4b9b30965ab0e"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.arm-linux-musleabihf-libgfortran4.tar.gz"
+    sha256 = "e8e4d89cd5bcc1bb7925f0d37f13b704fcac845ca33da50c4bd9bab8e7b9f93a"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.armv7l-linux-gnueabihf-libgfortran4.tar.gz"
 [[Mineos]]
-arch = "i686"
-git-tree-sha1 = "ae5834dd26aee07b87c93792b4906c0a3633b3b5"
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "edc5d945a9260d21128ba06501c2d92d5e0eedc4"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Mineos.download]]
+    sha256 = "92a281c60200c1716a3839959be65299a2205debf1daf59092a117b8266f96ed"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.armv7l-linux-gnueabihf-libgfortran5.tar.gz"
+[[Mineos]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "7b4e20b96990c4033927ad7c29008cbf31bed0a0"
 libc = "musl"
 libgfortran_version = "3.0.0"
 os = "linux"
 
     [[Mineos.download]]
-    sha256 = "a1c5ed0a4517b0ac00c8420222e756e0d380d8d8b7a1abc7c53fc5feed93c77a"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.i686-linux-musl-libgfortran3.tar.gz"
+    sha256 = "aa445748915c34e4f249c58d82859f3013c5cd719685368869afad9861b952cf"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.armv7l-linux-musleabihf-libgfortran3.tar.gz"
 [[Mineos]]
-arch = "x86_64"
-git-tree-sha1 = "a9acaa71e6f6e93e67f2698d23642b43662ae011"
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "e18d1a4f14a026f9bd71791d6fdfe55f92cf8241"
 libc = "musl"
 libgfortran_version = "4.0.0"
 os = "linux"
 
     [[Mineos.download]]
-    sha256 = "90f3aa40ccb586c0bd882165c55070cebc5f8364b2a964b965a4505a33174d38"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.x86_64-linux-musl-libgfortran4.tar.gz"
+    sha256 = "a696f0d9a9cd0c3de87cce9e8127da635effc2f03034d34fbef4cfd6b6c55e4d"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.armv7l-linux-musleabihf-libgfortran4.tar.gz"
 [[Mineos]]
-arch = "x86_64"
-git-tree-sha1 = "4d3aedd02f7353a998d2ea96dd4ae1578fbaf2cb"
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "de2d76e6af4fb79576f48fbdbe8ddf1321b55c96"
 libc = "musl"
 libgfortran_version = "5.0.0"
 os = "linux"
 
     [[Mineos.download]]
-    sha256 = "5791db891ee5f6dfb37c248085f1e033721b3f9ffbb249a6bb3bd7ff4652fb50"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.x86_64-linux-musl-libgfortran5.tar.gz"
+    sha256 = "8663f7fc339d2254ca08db4f4aaf7912e69d13fab0c442de2e989f2b85f81b0d"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.armv7l-linux-musleabihf-libgfortran5.tar.gz"
+[[Mineos]]
+arch = "i686"
+git-tree-sha1 = "2a95a9a722068e8e532f9dfc0760aca355319044"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[Mineos.download]]
+    sha256 = "3e143bc576b054236a10a1563145de71a2da0e3658c77ac0bc9d0cd4bc1f3dc5"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.i686-linux-gnu-libgfortran3.tar.gz"
+[[Mineos]]
+arch = "i686"
+git-tree-sha1 = "742b354c778944881f6fcfa3dbf0224d9daeef50"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[Mineos.download]]
+    sha256 = "eaea785d6ca916ec829f2e5f7907792cdb057b69562cb285ebf8a7ffe8c38ce1"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.i686-linux-gnu-libgfortran4.tar.gz"
+[[Mineos]]
+arch = "i686"
+git-tree-sha1 = "0ce21721056db1816b48509a56f3cb6d19aa2a53"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Mineos.download]]
+    sha256 = "8e5671569cd924a13f3b18e555cc8cef3335e9595cf9a13726b68f1e83907f8c"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.i686-linux-gnu-libgfortran5.tar.gz"
+[[Mineos]]
+arch = "i686"
+git-tree-sha1 = "76fc7c57804668569bfa42002efc2dd8b416e90f"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[Mineos.download]]
+    sha256 = "b19ce3edee89855a3f0dc3240a342ff213667fcb0f14f5e4a156ee0a38c0e6df"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.i686-linux-musl-libgfortran3.tar.gz"
+[[Mineos]]
+arch = "i686"
+git-tree-sha1 = "c4b1ddeba09a70bea63808c8baa0d3aefde791f0"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[Mineos.download]]
+    sha256 = "79abedf790303b61a1a5ffa0fd933cac74f2c62d8a3a7374707e874ea4a16a3f"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.i686-linux-musl-libgfortran4.tar.gz"
+[[Mineos]]
+arch = "i686"
+git-tree-sha1 = "9c17f052b0e289befaaa68ffa9e2e7ce75168e04"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Mineos.download]]
+    sha256 = "f5560768ffcb3b2eb460a1f86fa70e1665ea2f23675edaa4852cb8d5b1c770f2"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.i686-linux-musl-libgfortran5.tar.gz"
+[[Mineos]]
+arch = "i686"
+git-tree-sha1 = "fda45b1a585718f72d1b5214aead9e101994cf85"
+libgfortran_version = "3.0.0"
+os = "windows"
+
+    [[Mineos.download]]
+    sha256 = "f48617389085c93b4e145deb1c347399da09c250d7b9afd3fcd0709ea03df365"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.i686-w64-mingw32-libgfortran3.tar.gz"
+[[Mineos]]
+arch = "i686"
+git-tree-sha1 = "c533a68e179c265394962aa0658a446b93c81cdd"
+libgfortran_version = "4.0.0"
+os = "windows"
+
+    [[Mineos.download]]
+    sha256 = "7e8d3a393d2021da2442aae4d0659ea7908e617b370577d183c77f5dc5af3965"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.i686-w64-mingw32-libgfortran4.tar.gz"
+[[Mineos]]
+arch = "i686"
+git-tree-sha1 = "2caba89f70791712a0b2988abc46b2ac8186c499"
+libgfortran_version = "5.0.0"
+os = "windows"
+
+    [[Mineos.download]]
+    sha256 = "c4334ae1072f359ef96ef4a0f633f98f61c815df42f4ea35ae42c8e638d8dc29"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.i686-w64-mingw32-libgfortran5.tar.gz"
 [[Mineos]]
 arch = "powerpc64le"
-git-tree-sha1 = "d1da816d96df52695b2dca6de7f031f260034e23"
+git-tree-sha1 = "3067b5eaa8a70a3dc8ecc768eff2b2f65a75b50e"
 libc = "glibc"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[Mineos.download]]
-    sha256 = "604714b2235ed09c2372d55a405923c680e9fa4c53694123c4f0eb08129cee77"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.powerpc64le-linux-gnu-libgfortran5.tar.gz"
-[[Mineos]]
-arch = "x86_64"
-git-tree-sha1 = "bb3ccad94e2b8baf2dbf62ae653f2da3f3339a10"
-libc = "glibc"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[Mineos.download]]
-    sha256 = "2827dd0975d5f1f91bde2470747b2e8614d93c05292b03e77ed2ea0b97dc7af0"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.x86_64-linux-gnu-libgfortran5.tar.gz"
-[[Mineos]]
-arch = "i686"
-git-tree-sha1 = "e2110a7831ed337ec74bddd85a15e5dab1c56fa6"
-libgfortran_version = "4.0.0"
-os = "windows"
-
-    [[Mineos.download]]
-    sha256 = "b0ee33b799bda824918ec945c3469235ed5d844716d28db5b6da21d72860d0f3"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.i686-w64-mingw32-libgfortran4.tar.gz"
-[[Mineos]]
-arch = "x86_64"
-git-tree-sha1 = "065a165a6d7141a85eb7b6b0dec5b35d773d4fbe"
 libgfortran_version = "3.0.0"
-os = "freebsd"
+os = "linux"
 
     [[Mineos.download]]
-    sha256 = "89ee42ac2171a3f4350baf63c1669832688f63f9a391afa769cf149dd867cfc7"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.x86_64-unknown-freebsd11.1-libgfortran3.tar.gz"
+    sha256 = "2de26b6128e37f584612d8e1b27f4766fbd055d23f5288a340b5e08fb86c764d"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.powerpc64le-linux-gnu-libgfortran3.tar.gz"
 [[Mineos]]
-arch = "i686"
-git-tree-sha1 = "908e51bec5b73f56b50b3e838455a260177aa83c"
+arch = "powerpc64le"
+git-tree-sha1 = "62abfd9d044ec976d567699c9c3c4d5579bffdfb"
 libc = "glibc"
 libgfortran_version = "4.0.0"
 os = "linux"
 
     [[Mineos.download]]
-    sha256 = "7b40b41c18e03f839d58e4c85d2e586ca44e519614c25f862045a69c935a02f0"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.i686-linux-gnu-libgfortran4.tar.gz"
+    sha256 = "1d928a1f85291eec827db35590a6a63ba0d791d322db8ae8b2d2ae9374cd32aa"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.powerpc64le-linux-gnu-libgfortran4.tar.gz"
 [[Mineos]]
-arch = "i686"
-git-tree-sha1 = "3bb8ec1355538fc64bfbfddfa3633b38520c7096"
-libgfortran_version = "3.0.0"
-os = "windows"
+arch = "powerpc64le"
+git-tree-sha1 = "0259a5bd49e7137395d817169156a6979e9172c6"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
 
     [[Mineos.download]]
-    sha256 = "9ac367075f602b1571065619568a198fc7f10d3caba6c03d600563b1cf66fa9b"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.i686-w64-mingw32-libgfortran3.tar.gz"
+    sha256 = "a86571190e5b294d2f7424dd5f1c8c5d25f06afe3bb86454eeb6d08e4e1d4e83"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.powerpc64le-linux-gnu-libgfortran5.tar.gz"
 [[Mineos]]
 arch = "x86_64"
-git-tree-sha1 = "90467ecc6d265a25b68ee41e2c0a06604d720fd3"
+git-tree-sha1 = "58412a1b999913009acdb589a2dfa0033624b359"
+libgfortran_version = "3.0.0"
+os = "macos"
+
+    [[Mineos.download]]
+    sha256 = "6b07f880b68228664ed96f9d2acdd8901a2ee86dbccf4584d05122baffb9dbb3"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.x86_64-apple-darwin-libgfortran3.tar.gz"
+[[Mineos]]
+arch = "x86_64"
+git-tree-sha1 = "6cd505ae4eee44adc4c61a11d1ccc90441d087ea"
 libgfortran_version = "4.0.0"
 os = "macos"
 
     [[Mineos.download]]
-    sha256 = "c0fc12b13ae052d361752a1ebe40d14a7a4f9c75edabf0572ca51a81f060c20f"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.x86_64-apple-darwin14-libgfortran4.tar.gz"
+    sha256 = "c51d300d50911dda65d68a7b47bed7cc30d97e4767d1ef89cf05a7370c05f711"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.x86_64-apple-darwin-libgfortran4.tar.gz"
 [[Mineos]]
-arch = "i686"
-git-tree-sha1 = "8bbf62a4987a597c99d1fef1588ad777d8b795ff"
+arch = "x86_64"
+git-tree-sha1 = "829241a2f2ccc87b8c9b7d1ed7823ca58de348b2"
+libgfortran_version = "5.0.0"
+os = "macos"
+
+    [[Mineos.download]]
+    sha256 = "c8a2babd40e269b675e96b810471339718a5042f3debcad1d8c269bfc6bb7f1a"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.x86_64-apple-darwin-libgfortran5.tar.gz"
+[[Mineos]]
+arch = "x86_64"
+git-tree-sha1 = "c76c9d6b81cb9ac9fb9f9a484e5b164b9ae59fd7"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[Mineos.download]]
+    sha256 = "b240442ed13d73873d388998182ae09bec7defe288142f4c4397feb3467ee0d6"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.x86_64-linux-gnu-libgfortran3.tar.gz"
+[[Mineos]]
+arch = "x86_64"
+git-tree-sha1 = "c3824c5b1de4a0063c41d89bfeb2816df04bfe78"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[Mineos.download]]
+    sha256 = "4cdfefc23735247cc16d940a25375403e5ac6c7b8d849f2b4a07cee02f1ecb1f"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.x86_64-linux-gnu-libgfortran4.tar.gz"
+[[Mineos]]
+arch = "x86_64"
+git-tree-sha1 = "43a4026092f542ebdcd9a7d37acd0d648281a0b2"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Mineos.download]]
+    sha256 = "b5b14c81cebda6f9bacb945f0db9bcb5bc782b9ecb05f81faffc23d4fed2f1dd"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.x86_64-linux-gnu-libgfortran5.tar.gz"
+[[Mineos]]
+arch = "x86_64"
+git-tree-sha1 = "d96e8d8250cb48df0a37779820948f0c70d37000"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[Mineos.download]]
+    sha256 = "cabbad242850f4059183dc8879ad85aaf769d20a67b24e671f00d0d83d19b902"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.x86_64-linux-musl-libgfortran3.tar.gz"
+[[Mineos]]
+arch = "x86_64"
+git-tree-sha1 = "147e6aa4f947bc62882955328f62cf6ab800d61d"
 libc = "musl"
 libgfortran_version = "4.0.0"
 os = "linux"
 
     [[Mineos.download]]
-    sha256 = "e6adfb912627ac759395bf6fc9b0924e12a0f8d28def48a0acf8e17b918c1bdc"
-    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.0+0/Mineos.v1.0.0.i686-linux-musl-libgfortran4.tar.gz"
+    sha256 = "fb36a6047c9949a78d60d8ee3b1d51333250f9ed7cb73e481a59aa488702ebb6"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.x86_64-linux-musl-libgfortran4.tar.gz"
+[[Mineos]]
+arch = "x86_64"
+git-tree-sha1 = "f1ca41a0617c870318a159e7ed1e0db2cf79c157"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Mineos.download]]
+    sha256 = "4c27a64c42d15346fed063428693f0cecbee7763a78d612fba5ead3ee69f19fa"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.x86_64-linux-musl-libgfortran5.tar.gz"
+[[Mineos]]
+arch = "x86_64"
+git-tree-sha1 = "b97410d1fc7e520392bc2256471f191c0a0b99ab"
+libgfortran_version = "3.0.0"
+os = "freebsd"
+
+    [[Mineos.download]]
+    sha256 = "6219a6042c63f8da31e00dc6d6b55cf2868f2488b6cefc0f6cb82d8bd3a80faf"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.x86_64-unknown-freebsd-libgfortran3.tar.gz"
+[[Mineos]]
+arch = "x86_64"
+git-tree-sha1 = "8e382ce039e3fae3f32dee7778f6ab35c0588c62"
+libgfortran_version = "4.0.0"
+os = "freebsd"
+
+    [[Mineos.download]]
+    sha256 = "dfa11e1f788dbb8b55dad2b0a4505c6ad4a5cbbe3e35a61a8d4ed86bb2dfdd92"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.x86_64-unknown-freebsd-libgfortran4.tar.gz"
+[[Mineos]]
+arch = "x86_64"
+git-tree-sha1 = "d0c0d16d7549f73bb3a2e7f5c3f44c552b8549cf"
+libgfortran_version = "5.0.0"
+os = "freebsd"
+
+    [[Mineos.download]]
+    sha256 = "6b4ac09aded38d33950a92a369109bb8a811cc71a22afe57eb0255aaa26e9c86"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.x86_64-unknown-freebsd-libgfortran5.tar.gz"
+[[Mineos]]
+arch = "x86_64"
+git-tree-sha1 = "0d6a679fa41c6fff14c2d8e443562b34d3f8309a"
+libgfortran_version = "3.0.0"
+os = "windows"
+
+    [[Mineos.download]]
+    sha256 = "c7f2279149e52e13f5d0379a5e12287bddb43ce98eb6c591e9731d7615783968"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.x86_64-w64-mingw32-libgfortran3.tar.gz"
+[[Mineos]]
+arch = "x86_64"
+git-tree-sha1 = "2b27a548ba14fe5a59bdfd526124d45731ba6b0f"
+libgfortran_version = "4.0.0"
+os = "windows"
+
+    [[Mineos.download]]
+    sha256 = "cff13cd1b1bfd3b9dabd7b7d34ff91a25ad2560e318285e9c1d11329747e247d"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.x86_64-w64-mingw32-libgfortran4.tar.gz"
+[[Mineos]]
+arch = "x86_64"
+git-tree-sha1 = "5c597c69c31ecf6cfb4d191e1dcb83c32c9c7212"
+libgfortran_version = "5.0.0"
+os = "windows"
+
+    [[Mineos.download]]
+    sha256 = "2eb35626d7e2116b8d9260e674ee064461795af4da8509a2a111cb8854b99a68"
+    url = "https://github.com/JuliaBinaryWrappers/Mineos_jll.jl/releases/download/Mineos-v1.0.1+0/Mineos.v1.0.1.x86_64-w64-mingw32-libgfortran5.tar.gz"
